@@ -1,0 +1,10 @@
+h1{
+    width: 500px;
+    display: inline;
+    vertical-align: top;
+}
+
+p{
+    display: inline-block;
+    width: 600px;
+}
