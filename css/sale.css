@@ -1,0 +1,48 @@
+body{
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    width: 2000px;
+}
+.grid4{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+.grid6{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.green{
+    width: 500px;
+    height: 300px;
+}
+.living{
+    width: 500px;
+    height: 300px;
+}
+.couch{ 
+    width: 500px;
+    height: 300px;
+}
+.whitehouse{
+    width: 600px;
+    height: 800px;
+    margin-top: -500px;
+}
+.room{
+    width: 500px;
+    height: 300px;
+}
+.sky{
+    width: 650px;
+    height: 600px;
+    margin-top: -130px;
+}
