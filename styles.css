@@ -1,6 +1,198 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+.header {
   display: flex;
-  align-items: center;
+  position: relative;
+  flex-shrink: 1;
+  flex-direction: column;
+}
+
+.backgroundHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  display: flex;
+}
+
+
+/*LOGIN AND SIGN UP AND TEASER AND MENU*/
+.navigation {
+  color: white;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.TeaserLogo {
+  font-size: 35px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #0f2480;
+  font-weight: 700;
+  font-family: "Poppins";
+  top: 1 rem;
+}
+
+.navbar {
+display: flex;
   justify-content: space-between;
-  padding: 77px 165px 0;
+  padding: 3rem;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+
+}
+
+
+.login {
+  cursor: pointer;
+}
+
+.login:hover {
+  transition: background-color .6s ease;
+  color: #0959ee;
+}
+
+
+.signUp {
+  cursor: pointer;
+}
+.signUp:hover {
+  transition: background-color .6s ease;
+  color: #0959ee;
+}
+.menu {
+  cursor: pointer;
+}
+.menu:hover {
+  transition: background-color .6s ease;
+  color: #0959ee;
+}
+
+
+/*MODERN APARTMENT TITLE*/
+.text {
+position: relative;
+  left: 10rem;
+  top: 0rem;
+  width: 40rem;
+  padding: 2rem;
+}
+
+.text1 {
+width: 402px;
+  height: 232px;
+  font-size: 70px;
+  line-height: 134px;
+  color: #0f2480;
+  font-weight: 700;
+  font-family: "Poppins";
+
+}
+
+.text2 {
+font-size: 17px;
+  line-height: 27px;
+  color: #0b0b0b;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10rem;
+}
+
+.h1 {
+  font-size: larger;
+  color: #0959ee;
+}
+
+/*READ MORE TEXT*/
+.button {
+background-size: 100%;
+  border-radius: 2rem;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 11rem;
+  height: 3rem;
+  font-size: 14px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #1632af;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 3rem;
+}
+
+.button:hover {
+transition: background-color .6s ease;
+  background-color: #0959ee;
+  color: white;
+}
+
+
+/*SEARCH BAR*/
+
+.searchBar {
+display: flex;
+  box-shadow: 0.5px 1px 1px 2px gray;
+  width: 100rem;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+
+
+.category {
+opacity: 0.722;
+  font-size: 30px;
+  line-height: 28px;
+  color: #0f2480;
+  font-weight: 400;
+  font-family: "Poppins";
+  display: flex;
+  content: "Type your text here";
+  display: block;
+  width: 30rem;
+}
+
+.location {
+opacity: 0.722;
+  font-size: 30px;
+  line-height: 28px;
+  color: #0f2480;
+  font-weight: 400;
+  font-family: "Poppins";
+  display: flex;
+  content: "Type your text here";
+  display: block;
+  width: 30rem;
+}
+
+.search {
+width: 23rem;
+  height: 56px;
+  background-color: #f97616;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #f0aa78;
+transition: background-color .6s ease;
+color: white;
 }
