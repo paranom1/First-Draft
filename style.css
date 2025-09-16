@@ -26,7 +26,7 @@ p {
 }
 
 .pushleft {
-    padding-left: 8px;
+    padding-left: 13px;
 }
 
 .pushdown {
@@ -40,6 +40,7 @@ p {
     align-items: baseline;
     justify-content: space-evenly;
     align-content: center;
+    margin: 0px 325px;
 }
 
 .Fchildren1 {
@@ -47,7 +48,9 @@ p {
     height: 157px;
     max-height: 157px
 }
-
+.pushrightChild{
+    margin-right:20px;
+}
 .Fchildren2 {
     height: 157px;
     max-height:157px;
@@ -55,7 +58,7 @@ p {
 }
 
 .Ftoddler1 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .Ftoddler2 {
@@ -112,8 +115,8 @@ p {
 }
 
 .line {
-    margin-top: 10px;
-    width:55%
+    margin-top: 20px;
+    width:35%
 }
 
 /* footer elements */
