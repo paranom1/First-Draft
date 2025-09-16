@@ -5,11 +5,11 @@ body {
 
 footer {
     width: 100vw;
-    height: 250px;
+    height: 255px;
     background-color: rgb(15, 35, 127);
     color: white;
     margin: auto;
-    
+
 }
 
 h4 {
@@ -32,9 +32,11 @@ p {
 .pushdown {
     padding-bottom: 10px;
 }
+
 .center {
-    text-align:center;
+    text-align: center;
 }
+
 .Fparent {
     display: flex;
     align-items: baseline;
@@ -48,13 +50,15 @@ p {
     height: 157px;
     max-height: 157px
 }
-.pushrightChild{
-    margin-right:20px;
+
+.pushrightChild {
+    margin-right: 20px;
 }
+
 .Fchildren2 {
     height: 157px;
-    max-height:157px;
-    width:125px;
+    max-height: 157px;
+    width: 125px;
 }
 
 .Ftoddler1 {
@@ -66,57 +70,66 @@ p {
 }
 
 .Ftoddler3 {
-    text-align:justify;
+    text-align: justify;
 }
+
 .FooterEmail {
     border-radius: 0;
-    border-color:white;
-    border-style:dotted;
-    border-width:0px;
-    padding:7px;
-    margin-bottom:7px;
+    border-color: white;
+    border-style: dotted;
+    border-width: 0px;
+    padding: 7px;
+    margin-bottom: 7px;
 }
+
 .FooterButton {
-    margin:0;
-    border-radius:0;
-    color:white;
-    background-color:#ed5407;
-    padding:7px 15px;
-    display:block;
-    border-width:0;
-    transition:ease-in-out 0.2s
+    margin: 0;
+    border-radius: 0;
+    color: white;
+    background-color: #ed5407;
+    padding: 7px 15px;
+    display: block;
+    border-width: 0;
+    transition: ease-in-out 0.2s
 }
+
 .FooterButton:hover {
-    cursor:pointer;
-    background-color:#F4720E;
+    cursor: pointer;
+    background-color: #F4720E;
 
 }
+
 .FooterButton:active {
-    background-color:#fc4c00;
-    cursor:default
+    background-color: #fc4c00;
+    cursor: default
 }
+
 .iconholder {
-    margin-top:20px;
+    margin-top: 20px;
 }
+
 .icons {
-    font-size:20px;
-    color:white;
-    transition:ease-in-out 0.2s
+    font-size: 20px;
+    color: white;
+    transition: ease-in-out 0.2s
 }
+
 .icons:hover {
-    cursor:pointer;
-    color:#ed5407;
+    cursor: pointer;
+    color: #ed5407;
 }
+
 .icons:active {
-    color:#fc4c00;
+    color: #fc4c00;
 }
+
 .iconmarge {
-    padding-left:15px;
+    padding-left: 15px;
 }
 
 .line {
     margin-top: 20px;
-    width:35%
+    width: 35%
 }
 
 /* footer elements */
