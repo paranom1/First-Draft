@@ -10,10 +10,10 @@
 
 <body>
 
-    <header>
-        <div class="backgroundHeader">
-            <img src="imagesForHeader/HeaderApartment.png" alt="Apartment">
-        </div>
+    <header style="position: relative; height: 67rem;">
+
+        <img class="backgroundImage" src="imagesForHeader/HeaderApartment.png" alt="Apartment">
+
         <nav class="navbar">
             <!--TEASER LOGO-->
 
@@ -22,11 +22,59 @@
             </div>
             <!--Login and sign up-->
             <div class="navigation">
-                <a1 href="#" class="login">Login</a1>
-                <a2 href="#" class="signUp">Sign up</a2>
-                <a3 href="#" class="menu"><img src="imagesForHeader/MenuIcon.png" alt=""></a3>
+
+                <!-- The form -->
+                <!-- A button to open the popup form -->
+                <a1 class="open-button" onclick="openForm()">Login</a1>
+
+                <!-- The form -->
+                <div class="form-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1 style="color: black;">Login</h1>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit" class="btn">Login</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+                    </form>
+                </div>
+                <a2 class="open-button1" onclick="openForm1()">SignUp</a2>
+
+                <!-- The form -->
+                <div class="form-popup1" id="myForm1">
+                    <form action="/action_page.php" class="form-container1">
+                        <h1 style="color: black;">Sign Up</h1>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Create Password" name="psw" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Confirm Password" name="psw" required>
+
+                        <button type="submit" class="btn1">Login</button>
+                        <button type="button" class="btn cancel1" onclick="closeForm1()">Cancel</button>
+                    </form>
+                </div>
+                <a3 href="#" class="menu" onclick="openForm2()"><img src="imagesForHeader/MenuIcon.png" alt=""></a3>
             </div>
         </nav>
+
+        <div class="side-menu" id="sideMenu">
+            <a href="#" class="close-btn" id="closeBtn">&times;</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
 
 
         <!--Header Title text-->
@@ -36,7 +84,8 @@
                         Modern</span>
                     <span style="color: #054ebb;">
                         Apartment</span>
-                    <span style="color: #054ebb;">House</span></h1>
+                    <span style="color: #054ebb;">House</span>
+                </h1>
             </div>
             <div class="text2">
                 <h2>It is a long established fact that a reader will be distracted by the readable content of </h2>
@@ -45,16 +94,23 @@
             </div>
             </text>
             <div class="searchBar">
-                
-                    <input type="text" class="category" placeholder="Search Your Categories" />
-                   <input type="text" class="location" placeholder="Location" />
-                
+
+                <input type="text" class="category" placeholder="Search Your Categories" />
+                <input type="text" class="location" placeholder="Location" />
+
                 <div class="search">Search</div>
-              
+
 
 
             </div>
+
+        <!-- Overlay -->
+        <div class="overlay" id="overlay"></div>
+        <script src="script.js"></script>
+
     </header>
+
+
 </body>
 
 </html>
