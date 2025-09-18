@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', "Poppins-Bold", sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 2200px;
+    margin-left: 200px;
+    font-size: 10px;
+}
+.grid4{
+    height: 450px;
+    width: 550px;
+    overflow: hidden;
+}
+.grid6{
+    height: 450px;
+    width: 550px;
+    overflow: hidden;
+}
+.gridP{
+    font-size: 18px;
+}
+
+.green{
+    width: 550px;
+    height: 330px;
+}
+.living{
+    width: 550px;
+    height: 330px;
+}
+.couch{ 
+    width: 550px;
+    height: 330px;
+}
+.whitehouse{
+    width: 600px;
+    height: 830px;
+    margin-top: -500px;
+}
+.room{
+    width: 550px;
+    height: 330px;
+}
+.sky{
+    width: 715px;
+    height: 630px;
+    margin-top: -300px;
+}
+.div{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 900px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 650px;
+}
+.h1Line{
+    height: 50px;
+    width: 8px;
+    background-color: navy;
+    display: inline-block;
+    margin-bottom: -13px;
+    margin-right: 5px;
+}
+.titleP{
+    width: 650px;
+}
+.titleH{
+    display: inline;
+}
+
+h1{
+    width: 350px;
+}
+p{
+    width: 400px;
+}
+
+a{
+    margin-left: 1180px;
+}
+
+.square{
+    margin-left: 600px;
+    margin-bottom: 50px;
+    display: inline;
+}
+.square2{
+    margin-left: -105px;
+    margin-bottom: 95px;
+}
+
+.find-more{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px, navy, solid;
+    background-color: white;
+    color: navy;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+.find-more:hover{
+    background-color: navy;
+    color: white;
+}
