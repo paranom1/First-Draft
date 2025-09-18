@@ -6,15 +6,26 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    width: 2200px;
-    margin-left: 200px;
+    width: 1800px;
+    margin-left: 350px;
     font-size: 10px;
+}
+.grid1{
+    width: 550px;
+}
+.grid2{
+    width: 550px;
+}
+.grid3{
+    width: 550px;
 }
 .grid4{
     height: 450px;
     width: 550px;
     overflow: hidden;
+}
+.grid5{
+    width: 550px;
 }
 .grid6{
     height: 450px;
@@ -77,6 +88,7 @@ body{
 
 h1{
     width: 350px;
+    font-weight: 900;
 }
 p{
     width: 400px;
@@ -87,7 +99,7 @@ a{
 }
 
 .square{
-    margin-left: 600px;
+    margin-left: 478px;
     margin-bottom: 50px;
     display: inline;
 }
