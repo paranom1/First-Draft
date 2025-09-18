@@ -21,22 +21,17 @@
 }
 
 
-.backgroundHeader::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
+
 
 .backgroundHeader img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(70%); /* Darkens the image */
+    width: 62%;
+    height: 74%;
+    filter: brightness(70%);
     z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  filter: grayscale(100%) sepia(100%) saturate(500%) hue-rotate(180deg);
 }
 
 .navbar {
@@ -124,14 +119,13 @@
     font-size: 0.9rem;
     font-weight: bolder;
     margin-top: 1.5rem;
-    transition: background-color 0.3s 
-ease, color 0.3s 
-ease;
+        transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #3B82F6;
-    color: white;
+    background-color:  #3B82F6;
+    color:white;
+    cursor: pointer;
 }
 
 /* Search Bar */
