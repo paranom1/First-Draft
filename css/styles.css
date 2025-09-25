@@ -25,13 +25,12 @@
 
 .backgroundHeader img {
     width: 62%;
-    height: 74%;
-    filter: brightness(70%);
+    height: 55%;
     z-index: -1;
     position: absolute;
     top: 0;
     right: 0;
-  filter: grayscale(100%) sepia(100%) saturate(500%) hue-rotate(180deg);
+    filter: grayscale(100%) sepia(100%) saturate(500%) hue-rotate(180deg);
 }
 
 .navbar {
