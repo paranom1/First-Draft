@@ -1,78 +1,48 @@
-/* Main */
-main {
-    width:100vw;
-    
-
-}
-
-.sectionGIT {
-    height:504px;
-    background-color:rgb(15, 35, 127);
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-article {
-    width:704px
-}
-.articleIMG {
-    width:704px;
-    height:504px
-
-}
-aside {
-    margin-top:45px;
-    margin-left:30px;
-    width:750px;
-}
-form {
-    width:567px;
-    height: 459px;
-}
-.inputGIT {
-    border-radius:0px;
-    color:black;
-    width:550px;
-    height:40px;
-    display:inline;
-    border:0;
-    margin-bottom:20px;
-    padding-left:15px
-}
-
-textarea {
-    width:561px;
-    max-width: 561px;
-    min-width:561px;
-    height:102px;
-    max-height:102px;
-    min-height:102px;
-    margin-bottom: 30px;
-}
-.submit {
-    color:white;
-    background-color:#F4720E;
-    border:0;
-    border-radius:30px;
-    font-size:20px;
-    padding:15px 75px;
-    margin-left:64.5%;
-    transition:ease-in-out 0.2s;
-}
-.submit:hover {
-    background-color:#ed5407
-}
-.submit:active {
-    background-color:red
-}
-
-/* Main */
-
-/* footer elements */
 body {
-    margin: 0
+    margin:0;
+}
+h2 {
+margin:0;
+font-size:42px;
+font-weight:bolder;
+}
+h3 {
+margin:0;
+font-size:32px;
+font-weight:normal;
+}
+/* main */
+
+.sectionWCU {
+    width:100vw;
+    height:340px;
+    background-color:rgb(15, 35, 127);
+}
+.sectionflex {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    text-align:center;
+    color:white;
+    margin-bottom:35px;
+}
+.buttonWCU {
+    margin-left:46%;
+    text-align:center;
+    font-size:16px;
+    padding:10px 50px;
+    border-radius:30px;
+    background-color:white;
+    color:black;
 }
 
+.iconsWCU {
+    font-size:60px;
+    color:white;
+}
+/* main */
+
+/* footer */
 footer {
     width: 100vw;
     height: 255px;
