@@ -57,18 +57,19 @@
     height: 4rem;
     background-color: navy;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
     color: white;
+    font-weight: bolder;
     text-align: center;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
-    margin: 2rem;
-    margin-top:6rem;
+    transition: 0.7s;
+    margin: 1rem;
+    margin-top: 5rem;
 }
  
 .swapbutton:hover {
-    background-color: rgb(95, 95, 243);
+background-color: rgb(72, 72, 247);
 }
