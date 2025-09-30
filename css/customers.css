@@ -1,6 +1,3 @@
-.body {
-
-}
 .cusLine2 {
     height: 6px;
     width: 43px;
@@ -12,9 +9,8 @@
     width: 8px;
     background-color: navy;
     display: inline-block;
-
 }
-
+ 
 .cusLineImg {
     height: 15rem;
     width: 4rem;
@@ -27,7 +23,7 @@
     bottom: 1rem;
     position: relative;
 }
-
+ 
 .cusTitle {
     font-size: xxx-large;
     color: #111110;
@@ -39,8 +35,7 @@
     align-items: center;
     gap: 1rem;
 }
-
-
+ 
 .cusBox {
     display: flex;
     flex-wrap: wrap;
@@ -48,43 +43,33 @@
     padding: 2rem;
     box-shadow: 0 2px 4px rgb(0 0 0);
     margin: 2rem auto;
+    position: relative;
+    overflow: hidden;
 }
-.cusBox2 {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1350px;
-    padding: 2rem;
-    box-shadow: 0 2px 4px rgb(0 0 0);
-    margin: 2rem auto;
-}
-
+ 
 .customer1 {
     height: 12rem;
     width: 9rem;
 }
-
-
+ 
 .swapbutton {
-      width:4rem;
-  height:4rem;
-  background-color: navy;
-  border-radius: 50%;
-      margin-top: 6rem;
-      font-size: 2rem;
-      cursor: pointer;
-      color: white;
-      text-align: center;
-      display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: navy;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-transition: 0.7s;
+    transition: 0.7s;
+    margin: 1rem;
+    margin-top: 5rem;
 }
-
+ 
 .swapbutton:hover {
-opacity: 0.5;
+background-color: rgb(72, 72, 247);
 }
-
-
-
-
-
