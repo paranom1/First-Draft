@@ -67,6 +67,7 @@ font-weight:normal;
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-wrap:wrap;
 }
 /* main */
 
@@ -210,6 +211,16 @@ p {
         width:45%;
     }
     /* footer */
+    .sectionWCU {
+        height:420px;
+    }
+    .child {
+        width:50%;
+        text-align: center;
+    }
+    .buttonWCU {
+        margin-left:42.5%;
+    }
 }
 
 @media (max-width:780px) {
@@ -248,4 +259,13 @@ p {
         width:55%;
     }
     /* footer */
+    .sectionWCU {
+        height:700px;
+    }
+    .child {
+        width:100%;
+    }
+    .buttonWCU {
+        margin-left:38%
+    }
 }
