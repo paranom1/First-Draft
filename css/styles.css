@@ -103,6 +103,8 @@
     line-height: 1.6;
     font-weight: 400;
     color: black;
+        width: 29rem;
+
 }
 
 .button {
@@ -347,3 +349,146 @@
     opacity: 1;
     visibility: visible;
 }
+@media (max-width: 1355px){
+.text2{
+        width: 20rem;
+}
+.backgroundHeader img{
+    height: 60%;
+}
+}
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 1.5rem;
+    }
+    .TeaserLogo {
+        font-size: 1.8rem;
+    }
+    .navigation {
+        gap: 1rem;
+    }
+    .text{
+        margin-left: 2rem;
+    }
+    .text1 h1 {
+        font-size: 3rem;
+        line-height: 1.3;
+        width: 1rem;
+
+    }
+    .text2 {
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+    .searchBar {
+        max-width: 90%;
+        margin: 1.5rem auto;
+    }
+    .category, .location, .search {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+    .backgroundHeader img{
+        height: 52%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    .navigation {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .text {
+        max-width: 90%;
+        padding: 1rem;
+        margin-top: 5rem;
+    }
+    .text1 h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    .text2 {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.8rem;
+    }
+    .searchBar {
+        flex-direction: column;
+        align-items: stretch;
+        max-width: 95%;
+        padding: 0.8rem;
+    }
+    .category, .location, .search {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .side-menu {
+        width: 200px;
+        transform: translateX(100%);
+    }
+    .side-menu.active {
+        transform: translateX(0);
+    }
+    .popup-content {
+        max-width: 90%;
+    }
+        .login{
+        color: blue;
+    }
+    .signUp{
+        color: blue;
+    }
+    .menu{
+        background-color: blue;
+    }
+    .backgroundHeader img{
+            height: 45%;
+    }
+    .text2{
+        width: 12rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .TeaserLogo {
+        font-size: 1.5rem;
+    }
+    .navigation {
+        font-size: 0.9rem;
+    }
+    .menu img {
+        width: 1.5rem;
+    }
+    .text1 h1 {
+        font-size: 2.1rem;
+    }
+    .text2 {
+        font-size: 0.7rem;
+        width: 10rem;
+    }
+    .login{
+        color: blue;
+    }
+    .signUp{
+        color: blue;
+    }
+    .menu{
+        background-color: blue;
+    }
+    .backgroundHeader img{
+            height: 45%;
+    }
+    .button{
+        background-color: white;
+    }
+}
+
