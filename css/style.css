@@ -113,6 +113,7 @@ p {
     justify-content: space-evenly;
     align-content: center;
     margin: 0px 325px;
+    flex-wrap:wrap;
 }
 
 .Fchildren1 {

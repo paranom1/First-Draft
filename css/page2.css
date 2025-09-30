@@ -1,6 +1,14 @@
 body {
     margin:0;
 }
+h1 {
+    font-size:40px;
+    color:white;
+    text-align:center;
+    margin:0;
+    display:inline-block;
+    margin-left:10px;
+}
 h2 {
 margin:0;
 font-size:42px;
@@ -17,6 +25,7 @@ font-weight:normal;
     width:100vw;
     height:340px;
     background-color:rgb(15, 35, 127);
+    padding-top:20px
 }
 .sectionflex {
     display:flex;
@@ -34,11 +43,30 @@ font-weight:normal;
     border-radius:30px;
     background-color:white;
     color:black;
+    transition:ease-in-out 0.2s;
+}
+.buttonWCU:hover {
+    cursor:pointer;
+    background-color:#F4720E;
+}
+.buttonWCU:active {
+    background-color:#fc4c00;
 }
 
 .iconsWCU {
     font-size:60px;
     color:white;
+}
+.lineWCU {
+    height:60px;
+    background-color:white;
+    display:inline-block;
+    width:8px;
+}
+.titleflexWCU {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 /* main */
 
@@ -88,7 +116,7 @@ p {
 .Fchildren1 {
     min-width: 200px;
     height: 157px;
-    max-height: 157px
+    max-height: 157px;
 }
 
 .pushrightChild {
@@ -169,7 +197,52 @@ p {
 
 .line {
     margin-top: 20px;
-    width: 35%
+    width: 35%;
 }
 
 /* footer elements */
+@media (max-width:1440px) {
+    .Fparent {
+        margin: 0 ;
+    }
+    .line {
+        width:45%;
+    }
+
+}
+
+@media (max-width:780px) {
+    footer {
+        height:720px
+    }
+    .Fparent {
+        flex-wrap:wrap;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .Fchildren1 {
+        width:100%;
+        text-align:center;
+    }
+    .Fchildren2 {
+        width:100%;
+        text-align:center;
+    }
+    .Fchildren3 {
+        width:100%;
+        text-align:center;
+    }
+    .FooterButton {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .pushrightChild {
+        margin-right:0;
+    }
+    .media1 {
+        text-align:center;
+    }
+    .line {
+        width:55%;
+    }
+}
