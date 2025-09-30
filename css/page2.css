@@ -202,16 +202,18 @@ p {
 
 /* footer elements */
 @media (max-width:1440px) {
+    /* footer */
     .Fparent {
         margin: 0 ;
     }
     .line {
         width:45%;
     }
-
+    /* footer */
 }
 
 @media (max-width:780px) {
+    /* footer */
     footer {
         height:720px
     }
@@ -245,4 +247,5 @@ p {
     .line {
         width:55%;
     }
+    /* footer */
 }
