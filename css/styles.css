@@ -103,8 +103,8 @@
     line-height: 1.6;
     font-weight: 400;
     color: black;
-        width: 29rem;
-
+    width: 29rem;
+    height: 11rem;
 }
 
 .button {
@@ -142,6 +142,7 @@
     margin: 2rem auto;
     position: relative;
     z-index: 5;
+    margin-top: 1rem;
 }
 
 .category, .location {
@@ -353,10 +354,16 @@
 .text2{
         width: 20rem;
 }
+
+.searchBar{
+        margin-top: 1rem;
+}
+
 .backgroundHeader img{
-    height: 60%;
+    height: 55%;
 }
 }
+
 @media (max-width: 1024px) {
     .navbar {
         padding: 1.5rem;
@@ -383,13 +390,14 @@
     .searchBar {
         max-width: 90%;
         margin: 1.5rem auto;
+        margin-top: 4rem;
     }
     .category, .location, .search {
         font-size: 1rem;
         padding: 0.6rem;
     }
     .backgroundHeader img{
-        height: 52%;
+        height: 55%;
     }
 }
 
