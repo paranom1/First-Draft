@@ -68,6 +68,7 @@
     transition: 0.7s;
     margin: 1rem;
     margin-top: 5rem;
+    margin-left:0;
 }
  
 .swapbutton:hover {

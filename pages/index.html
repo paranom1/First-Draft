@@ -1,46 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/a1ff1632b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+
 </head>
+
 <body>
-    <footer>
-        <div class="Fparent">
-            <div class="Fchildren1">
-                <h4 class="pushdown">About Apartment</h4>
-                <div class="Ftoddler1"><i class="fa-solid fa-location-dot"></i> <p class="pushleft inline">Address</p></div>
-                <div class="Ftoddler1"><i class="fa-solid fa-mobile-screen-button"></i> <p class="pushleft inline">+01 1234567890</p></div>
-                <div><i class="fa-solid fa-envelope"></i> <p class="pushleft inline">demo@gmail.com</p></div>
+    <header>
+        <div class="backgroundHeader">
+            <img src="../imagesForHeader/HeaderApartment.png" alt="Apartment">
+        </div>
+        <nav class="navbar">
+            <div class="TeaserLogo"><img src="../imagesForHeader/Teaser.png"></div>
+            <div class="navigation">
+                <a href="#" class="login" id="loginLink">Login</a>
+                <a href="#" class="signUp" id="signUpLink">Sign up</a>
+                <a href="#" class="menu" id="menuLink"><img src="../imagesForHeader/MenuIcon.png" alt="Menu"></a>
             </div>
-            <div class="Fchildren1 pushrightChild">
-                <h4 class="pushdown">Information</h4>
-                <div class="Ftoddler2"><p>Lorem ipsum dolor sit amet</p> <p>consectetur adipiscing elit</p> <p></p>quisque faucibus ex sapien.</p></div>
-
-
+        </nav>
+        <div class="side-menu" id="sideMenu">
+            <a href="#" class="close-btn" id="closeBtn">&times;</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <div class="text1">
+                <h1><span style="color: #1E3A8A;">Modern</span> <span style="color: #3B82F6;">Apartment</span> <span
+                        style="color: #3B82F6;">House</span></h1>
             </div>
-            <div class="Fchildren2">
-                <h4 class="pushdown">Useful Link</h4>
-                <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p></div>
-
-            </div>
-            <div class="Fchildren3">
-                <h4 class="pushdown">Newsletter</h4>
-                <input type="email" required placeholder="Enter your email" class="FooterEmail">
-                <button class="FooterButton">SUBSCRIBE</button>
-                <div class="iconholder">
-                    <i class="fa-brands fa-facebook-f icons"></i>
-                     <i class="fa-brands fa-twitter icons iconmarge"></i> 
-                     <i class="fa-brands fa-instagram icons iconmarge"></i> 
-                     <i class="fa-brands fa-youtube icons iconmarge"></i>
-                    </div>
+            <div class="text2">
+                <h2>It is a long established fact that a reader will be distracted by the readable content of</h2>
+                <button class="button">READ MORE</button>
             </div>
         </div>
-        <hr class="line">
-        <p class="center">&#169; 2019 All Rights Reserved. UnFree html Templates</p>
-    </footer>
+
+
+        <!-- Login Pop-Up -->
+        <div class="popup" id="loginPopup">
+            <div class="popup-content">
+                <a href="#" class="close-popup" id="closeLogin">&times;</a>
+                <h2>Login</h2>
+                <form>
+                    <input type="text" placeholder="Username or Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <!-- Sign-Up Pop-Up -->
+        <div class="popup" id="signUpPopup">
+            <div class="popup-content">
+                <a href="#" class="close-popup" id="closeSignUp">&times;</a>
+                <h2>Sign Up</h2>
+                <form>
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <!-- Overlay -->
+        <div class="overlay" id="overlay"></div>
+        <script src="../javascript/script.js"></script>
+    </header>
+    <div class="searchBar">
+        <input type="text" class="category" placeholder="Search Your Categories" />
+        <input type="text" class="location" placeholder="Location" />
+        <div class="search">Search</div>
+    </div>
+    <!--About our Apartments sekcija-->
+    <div class="aboutApartments" style="display: flex; gap: 6rem;">
+        <img src="../photos/kitchen.png">
+        <div class="divApartment">
+            <h3 style="font-size: 4rem;">
+                <div class="apartmentStick"></div>About Our Apartment
+            </h3>
+            <p style="width: 40rem; line-height: 2.7rem; font-size: 1.7rem;">There are many variations of
+                passages of Lorem Ipsum available, but the majority have suffered
+                alternation in
+                some form, by injected humour, or randomised words</p>
+            <a href=""><button class="AboutApartmentReadMore " type="button">READ MORE</button></a>
+        </div>
+    </div>
+
+    <!--House for Sale Sekcija-->
+    <div>
+        <div class="divSale">
+            <h4 class="titleH" style="font-size: 4rem;">
+                <div class="h1Line"></div>House For Sale
+            </h4>
+            <p class="titleP" style="font-size: 1.5rem;">There are many variations of passages of Lorem Ipsum available,
+                but the</p>
+        </div>
+
+
+        <div class="grid">
+            <div><img src="../photos/greenhouse.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div><img src="../photos/living.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div><img src="../photos/couch.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div><img src="../photos/whitehouse.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div><img src="../photos/room.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div><img src="../photos/sky.png">
+                <h1>APERTMENTS HOUSE</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+        </div>
+        <div class="findMoreButtonContainer">
+            <a href=""><button class="findMoreButton">FIND MORE</button></a>
+        </div>
+    </div>
 </body>
+
 </html>
