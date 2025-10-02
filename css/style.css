@@ -1,87 +1,182 @@
 body {
-    margin:0;
+    margin: 0;
 }
+
 /* Main */
 main {
-    width:100vw;
-    
+    width: 100vw;
+
 
 }
 
 .sectionGIT {
-    height:504px;
-    background-color:rgb(15, 35, 127);
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+    height: 504px;
+    background-color: rgb(15, 35, 127);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-article {
-    width:604px;
-    height:404px;
-}
-.articleIMG {
-    width:604px;
-    height:404px
 
+article {
+    width: 704px;
+    height: 504px;
 }
+
+.articleIMG {
+    width: 704px;
+    height: 504px
+}
+
 aside {
-    margin-top:45px;
-    margin-left:30px;
-    width:600px;
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 600px;
 }
+
 form {
-    width:567px;
+    width: 567px;
     height: 459px;
 }
+
 .inputGIT {
-    border-radius:0px;
-    color:black;
-    width:550px;
-    height:40px;
-    display:inline;
-    border:0;
-    margin-bottom:20px;
-    padding-left:15px
+    border-radius: 0px;
+    color: black;
+    width: 550px;
+    height: 40px;
+    display: inline;
+    border: 0;
+    margin-bottom: 20px;
+    padding-left: 15px
 }
 
 textarea {
-    width:561px;
+    width: 561px;
     max-width: 561px;
-    min-width:561px;
-    height:102px;
-    max-height:102px;
-    min-height:102px;
+    min-width: 561px;
+    height: 102px;
+    max-height: 102px;
+    min-height: 102px;
     margin-bottom: 30px;
 }
+
 .submit {
-    color:white;
-    background-color:#F4720E;
-    border:0;
-    border-radius:30px;
-    font-size:20px;
-    padding:15px 75px;
-    margin-left:64.5%;
-    transition:ease-in-out 0.2s;
-}
-.submit:hover {
-    background-color:#ed5407
-}
-.submit:active {
-    background-color:red
-}
-.titleflexGIT {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.lineGIT {
-    height:40px;
-    background-color:rgb(15, 35, 127);
-    display:inline-block;
-    width:8px;
-    margin-right:5px;
+    color: white;
+    background-color: #F4720E;
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 75px;
+    margin-left: 64.5%;
+    transition: ease-in-out 0.2s;
 }
 
+.submit:hover {
+    background-color: #ed5407
+}
+
+.submit:active {
+    background-color: red
+}
+
+.titleflexGIT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineGIT {
+    height: 40px;
+    background-color: rgb(15, 35, 127);
+    display: inline-block;
+    width: 8px;
+    margin-right: 5px;
+}
+
+.cusLine2 {
+    height: 6px;
+    width: 43px;
+    background-color: rgb(15, 35, 127);
+    align-content: center;
+}
+.cusLine {
+    height: 70px;
+    width: 8px;
+    background-color: rgb(15, 35, 127);
+    display: inline-block;
+}
+ 
+.cusLineImg {
+    height: 15rem;
+    width: 4rem;
+    background-color: rgb(15, 35, 127);
+    display: inline-block;
+    margin-bottom: -13px;
+    margin-right: 5px;
+    z-index: -5;
+    left: 3rem;
+    bottom: 1rem;
+    position: relative;
+}
+ 
+.cusTitle {
+    font-size: xxx-large;
+    color: #111110;
+    font-weight: 700;
+    text-align: center;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+.cusBox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgb(0 0 0);
+    margin: 2rem auto;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.customer1 {
+    height: 12rem;
+    width: 9rem;
+}
+.customertext {
+    font-size: 1.7rem;
+    margin-top: -1rem;
+    text-align: left;
+     width: 48rem;
+}
+ 
+.textcontainer {
+    width:55rem;
+}
+
+.swapbutton {
+    width: 4rem;
+    height: 4rem;
+    background-color: navy;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+    margin: 1rem;
+    margin-top: 5rem;
+}
+ 
+.swapbutton:hover {
+background-color: rgb(72, 72, 247);
+}
 /* Main */
 
 /* footer */
@@ -216,51 +311,153 @@ p {
 
 /* footer elements */
 @media (max-width:1440px) {
+
     /* footer */
     .Fparent {
-        margin: 0 ;
+        margin: 0;
     }
+
     .line {
-        width:45%;
+        width: 45%;
     }
+
     /* footer */
+
+    /* main */
+    aside {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .sectionGIT {
+        height: 940px;
+    }
+
+    form {
+        margin: auto;
+    }
+
+    .cusLineImg {
+        height:10rem;
+        width:2rem;
+        left:2rem;
+    }
+    .customer1 {
+        height:10rem;
+        width:7rem;
+    }
+    .customertext {
+        width:26rem;
+        font-size:1rem;
+    }
+    .textcontainer {
+        width:26rem;
+    }
+    .cusBox {
+        max-width:760px;
+    }
+    .swapbutton {
+        margin:0;
+        margin-top:5rem;
+    }
     /* main */
 }
 
 @media (max-width:780px) {
+
     /* footer */
+
     footer {
-        height:720px
+        height: 720px
     }
+
     .Fparent {
-        flex-wrap:wrap;
-        flex-direction:column;
-        justify-content:center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .Fchildren1 {
-        width:100%;
-        text-align:center;
+        width: 100%;
+        text-align: center;
     }
+
     .Fchildren2 {
-        width:100%;
-        text-align:center;
+        width: 100%;
+        text-align: center;
     }
+
     .Fchildren3 {
-        width:100%;
-        text-align:center;
+        width: 100%;
+        text-align: center;
     }
+
     .FooterButton {
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .pushrightChild {
-        margin-right:0;
+        margin-right: 0;
     }
+
     .media1 {
-        text-align:center;
+        text-align: center;
     }
+
     .line {
-        width:55%;
+        width: 55%;
     }
+
     /* footer */
+
+    /* main */
+    .inputGIT {
+        width: 500px;
+    }
+
+    textarea {
+        width: 511px;
+        max-width: 511px;
+        min-width: 511px;
+    }
+
+    article {
+        width: 504px;
+        height: 304px;
+    }
+
+    .articleIMG {
+        width: 504px;
+        height: 364px
+    }
+
+    .submit {
+        margin-left: 30%;
+    }
+
+    form {
+        width: 517px;
+    }
+
+    h3 {
+        font-size:0.55em;
+    }
+    .cusLine {
+        height:50px
+    }
+    .customer1 {
+        height:7rem;
+        width:5rem;
+    }
+    .cusLineImg {
+        height:7rem;
+        left:1rem;
+    }
+    .swapbutton {
+        width:3rem;
+        height:3rem;
+        font-size:2rem;
+    }
+    /* main */
 }
