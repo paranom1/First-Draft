@@ -25,7 +25,7 @@
 
     .backgroundHeader img {
         width: 62%;
-        height: 55%;
+        height: 63%;
         z-index: -1;
         position: absolute;
         top: 0;
@@ -62,9 +62,14 @@
     .signUp,
     .menu {
         cursor: pointer;
-        color: white;
+        color: gray;
         text-decoration: none;
         font-size: 1rem;
+        margin-top: -1.5rem;
+    }
+
+    .menu {
+        background-color: gray;
     }
 
     .login:hover,
@@ -507,7 +512,7 @@
         }
 
         .backgroundHeader img {
-            height: 50%;
+        height: 63%;
         }
     }
 
@@ -531,6 +536,9 @@
         .divApartment p {
             width: 35rem;
         }
+.backgroundHeader img {
+            height: 63%;
+}
     }
 
     @media (max-width: 1200px) {
@@ -566,6 +574,7 @@
         .divApartment p {
             width: 30rem;
         }
+        
     }
 
     @media (max-width: 1024px) {
@@ -610,9 +619,9 @@
             padding: 0.6rem;
         }
 
-        .backgroundHeader img {
-            height: 45%;
-        }
+.backgroundHeader img {
+            height: 55%;
+}
 
         .aboutApartments {
             flex-direction: column;
@@ -636,7 +645,6 @@
 
     @media (max-width: 768px) {
         .navbar {
-            flex-direction: column;
             align-items: flex-start;
             padding: 1rem;
         }
@@ -699,18 +707,6 @@
             max-width: 90%;
         }
 
-        .login {
-            color: blue;
-        }
-
-        .signUp {
-            color: blue;
-        }
-
-        .menu {
-            background-color: blue;
-        }
-
         .backgroundHeader img {
             height: 45%;
         }
@@ -722,6 +718,10 @@
         .divApartment p {
             font-size: 1.2rem;
         }
+
+                .backgroundHeader img {
+    width: 60%;
+}
     }
 
     @media (max-width: 600px) {
@@ -779,6 +779,7 @@
         .divApartment p {
             font-size: 1rem;
         }
+        
     }
 
     @media (max-width: 480px) {
@@ -802,18 +803,6 @@
         .text2 {
             font-size: 0.6rem;
             width: 8rem;
-        }
-
-        .login {
-            color: blue;
-        }
-
-        .signUp {
-            color: blue;
-        }
-
-        .menu {
-            background-color: blue;
         }
 
         .backgroundHeader img {
@@ -846,6 +835,42 @@
         .divApartment h3 {
             font-size: 2rem;
         }
+                .backgroundHeader img {
+    width: 100%;
+}
+        .divApartment h3 {
+            font-size: 2rem;
+        }
+
+        .titleH {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            width: 14rem;
+            display: flex
+;
+        }
+
+        .grid {
+                gap: 90px;
+        }
+
+        .searchBar {
+            width: 18rem;
+        }
+
+        .text {
+            background-color: white;
+            opacity: 0.9;
+            inline-size: fit-content;
+            place-self: center;
+            height: 23rem;
+            width: 11rem;
+            border-radius: 8%;
+                        margin-left: -17px;
+        }
+        .backgroundHeader img {
+    width: 100%;
+}
     }
 
     @media (max-width: 380px) {
@@ -857,6 +882,8 @@
             font-size: 2rem;
             margin-bottom: 8px;
             width: 14rem;
+            display: flex
+;
         }
 
         .grid {
@@ -866,4 +893,21 @@
         .searchBar {
             width: 18rem;
         }
+
+        .text {
+            background-color: white;
+            opacity: 0.9;
+            inline-size: fit-content;
+            place-self: center;
+            height: 23rem;
+            width: 11rem;
+            border-radius: 8%;
+                        margin-left: -17px;
+        }
+        .backgroundHeader img {
+    width: 100%;
+}
+        }
+
     }
+    
