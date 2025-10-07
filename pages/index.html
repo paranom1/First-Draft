@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
@@ -25,8 +26,8 @@
             <a href="#" class="close-btn" id="closeBtn">&times;</a>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="../pages/page2.html">About</a></li>
+                <li><a href="../pages/page3.html">Reviews</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -37,7 +38,7 @@
             </div>
             <div class="text2">
                 <h2>It is a long established fact that a reader will be distracted by the readable content of</h2>
-                <button class="button">READ MORE</button>
+                <a href="../pages/page2.html"><button class="button">READ MORE</button></a>
             </div>
         </div>
 
@@ -81,21 +82,21 @@
     <div class="aboutApartments" style="display: flex; gap: 6rem;">
         <img src="../photos/kitchen.png">
         <div class="divApartment">
-            <h3 style="font-size: 4rem;">
+            <h3>
                 <div class="apartmentStick"></div>About Our Apartment
             </h3>
-            <p style="width: 40rem; line-height: 2.7rem; font-size: 1.7rem;">There are many variations of
+            <p>There are many variations of
                 passages of Lorem Ipsum available, but the majority have suffered
                 alternation in
                 some form, by injected humour, or randomised words</p>
-            <a href=""><button class="AboutApartmentReadMore " type="button">READ MORE</button></a>
+            <a href="../pages/page2.html"><button class="AboutApartmentReadMore " type="button">READ MORE</button></a>
         </div>
     </div>
 
     <!--House for Sale Sekcija-->
     <div>
         <div class="divSale">
-            <h4 class="titleH" style="font-size: 4rem;">
+            <h4 class="titleH">
                 <div class="h1Line"></div>House For Sale
             </h4>
             <p class="titleP" style="font-size: 1.5rem;">There are many variations of passages of Lorem Ipsum available,
@@ -130,9 +131,43 @@
             </div>
         </div>
         <div class="findMoreButtonContainer">
-            <a href=""><button class="findMoreButton">FIND MORE</button></a>
+            <a href="../pages/page2.html"><button class="findMoreButton">FIND MORE</button></a>
         </div>
     </div>
+    <footer>
+        <div class="Fparent">
+            <div class="Fchildren1">
+                <h4 class="pushdown">About Apartment</h4>
+                <div class="Ftoddler1"><i class="fa-solid fa-location-dot"></i> <p class="pushleft inline">Address</p></div>
+                <div class="Ftoddler1"><i class="fa-solid fa-mobile-screen-button"></i> <p class="pushleft inline">+01 1234567890</p></div>
+                <div><i class="fa-solid fa-envelope"></i> <p class="pushleft inline">demo@gmail.com</p></div>
+            </div>
+            <div class="Fchildren1 pushrightChild">
+                <h4 class="pushdown">Information</h4>
+                <div class="Ftoddler2 media1"><p>Lorem ipsum dolor sit amet</p> <p>consectetur adipiscing elit</p> <p></p>quisque faucibus ex sapien.</p></div>
+
+
+            </div>
+            <div class="Fchildren2">
+                <h4 class="pushdown">Useful Link</h4>
+                <div class="media1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p></div>
+
+            </div>
+            <div class="Fchildren3">
+                <h4 class="pushdown">Newsletter</h4>
+                <input type="email" required placeholder="Enter your email" class="FooterEmail">
+                <button class="FooterButton">SUBSCRIBE</button>
+                <div class="iconholder media1">
+                    <i class="fa-brands fa-facebook-f icons"></i>
+                     <i class="fa-brands fa-twitter icons iconmarge"></i> 
+                     <i class="fa-brands fa-instagram icons iconmarge"></i> 
+                     <i class="fa-brands fa-youtube icons iconmarge"></i>
+                    </div>
+            </div>
+        </div>
+        <hr class="line">
+        <p class="center">&#169; 2019 All Rights Reserved. UnFree html Templates</p>
+    </footer>
 </body>
 
 </html>
