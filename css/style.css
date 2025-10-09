@@ -71,7 +71,8 @@ textarea {
 }
 
 .submit:hover {
-    background-color: #ed5407
+    background-color: #ed5407;
+    cursor:pointer;
 }
 
 .submit:active {
