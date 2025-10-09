@@ -82,6 +82,8 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .lineGIT {
@@ -98,13 +100,14 @@ textarea {
     background-color: rgb(15, 35, 127);
     align-content: center;
 }
+
 .cusLine {
     height: 70px;
     width: 8px;
     background-color: rgb(15, 35, 127);
     display: inline-block;
 }
- 
+
 .cusLineImg {
     height: 15rem;
     width: 4rem;
@@ -117,7 +120,7 @@ textarea {
     bottom: 1rem;
     position: relative;
 }
- 
+
 .cusTitle {
     font-size: xxx-large;
     color: #111110;
@@ -129,7 +132,7 @@ textarea {
     align-items: center;
     gap: 1rem;
 }
- 
+
 .cusBox {
     display: flex;
     flex-wrap: wrap;
@@ -140,20 +143,21 @@ textarea {
     position: relative;
     overflow: hidden;
 }
- 
+
 .customer1 {
     height: 12rem;
     width: 9rem;
 }
+
 .customertext {
     font-size: 1.7rem;
     margin-top: -1rem;
     text-align: left;
-     width: 48rem;
+    width: 48rem;
 }
- 
+
 .textcontainer {
-    width:55rem;
+    width: 55rem;
 }
 
 .swapbutton {
@@ -172,11 +176,13 @@ textarea {
     transition: 0.7s;
     margin: 1rem;
     margin-top: 5rem;
+    font-family: 'Times New Roman', Times, serif
 }
- 
+
 .swapbutton:hover {
-background-color: rgb(72, 72, 247);
+    background-color: rgb(72, 72, 247);
 }
+
 /* Main */
 
 /* footer */
@@ -194,9 +200,16 @@ h4 {
     margin-bottom: 8px
 }
 
+h1 {
+    margin-block: 20px;
+}
+
 p {
-    font-size: 16px;
-width: 108%;
+    font-size: 15px;
+}
+
+.pfooter {
+    width: 108%;
 }
 
 .inline {
@@ -213,6 +226,8 @@ width: 108%;
 
 .center {
     text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
 }
 
 .Fparent {
@@ -307,6 +322,8 @@ width: 108%;
 
 .line {
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 35%;
 }
 
@@ -326,7 +343,7 @@ width: 108%;
 
     /* main */
     aside {
-        width: 600px;
+        width: 800px;
         margin-left: 0;
     }
 
@@ -339,28 +356,34 @@ width: 108%;
     }
 
     .cusLineImg {
-        height:10rem;
-        width:2rem;
-        left:2rem;
+        height: 10rem;
+        width: 2rem;
+        left: 2rem;
     }
+
     .customer1 {
-        height:10rem;
-        width:7rem;
+        height: 10rem;
+        width: 7rem;
     }
+
     .customertext {
-        width:26rem;
-        font-size:1rem;
+        width: 26rem;
+        font-size: 1rem;
     }
+
     .textcontainer {
-        width:26rem;
+        width: 26rem;
     }
+
     .cusBox {
-        max-width:760px;
+        max-width: 760px;
     }
+
     .swapbutton {
-        margin:0;
-        margin-top:5rem;
+        margin: 0;
+        margin-top: 5rem;
     }
+
     /* main */
 }
 
@@ -410,17 +433,25 @@ width: 108%;
         width: 55%;
     }
 
+    .pfooter {
+        width: 100%;
+    }
+
+    .center {
+        font-size: 10px;
+    }
+
     /* footer */
 
-     /* main */
+    /* main */
     .inputGIT {
         width: 500px;
     }
 
     textarea {
-        width: 511px;
-        max-width: 511px;
-        min-width: 511px;
+        width: 500px;
+        max-width: 500px;
+        min-width: 500px;
     }
 
     article {
@@ -442,61 +473,74 @@ width: 108%;
     }
 
     h3 {
-        font-size:0.55em;
+        font-size: 0.55em;
     }
+
     .cusLine {
-        height:50px
+        height: 50px
     }
+
     .customer1 {
-        height:7rem;
-        width:5rem;
+        height: 7rem;
+        width: 5rem;
     }
+
     .cusLineImg {
-        height:7rem;
-        left:1rem;
+        height: 7rem;
+        left: 1rem;
     }
+
     .swapbutton {
-        width:3rem;
-        height:3rem;
-        font-size:2rem;
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
     }
+
     /* main */
 
     @media (max-width:689px) {
         .inputGIT {
-        width:410px;
-    }
-    textarea {
-        width: 421px;
-        max-width: 421px;
-        min-width: 421px;
-    }
-    .articleIMG {
-        width:430px;
-        height:384px;
-    }
-    .cusBox {
-        padding:0.8rem;
-    }
-    .customertext {
-        width:14rem;
-        font-size:0.8rem;
-    }
-    .textcontainer {
-        width:14rem;
-    }
-    .swapbutton {
-        width:2rem;
-        height:2rem;
-        font-size:1.5rem;
-    }
-    .cusLineImg {
-        height:8rem;
-        width:1.5rem;
-        left:1rem;
-    }
-    .cusBox {
-        max-width:430px;
-    }
+            width: 410px;
+        }
+
+        textarea {
+            width: 421px;
+            max-width: 421px;
+            min-width: 421px;
+        }
+
+        .articleIMG {
+            width: 430px;
+            height: 384px;
+        }
+
+        .cusBox {
+            padding: 0.8rem;
+        }
+
+        .customertext {
+            width: 14rem;
+            font-size: 0.8rem;
+        }
+
+        .textcontainer {
+            width: 14rem;
+        }
+
+        .swapbutton {
+            width: 2rem;
+            height: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .cusLineImg {
+            height: 8rem;
+            width: 1.5rem;
+            left: 1rem;
+        }
+
+        .cusBox {
+            max-width: 430px;
+        }
     }
 }

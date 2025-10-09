@@ -2,9 +2,6 @@
 
 /* Reset default margins and ensure full viewport height */
 * {
-    @import url('https://fonts.googleapis.com/css?family=Varela+Round|Poppins:400,700');
-
-    /* Reset default margins and ensure full viewport height */
     * {
         margin: 0;
         padding: 0;
