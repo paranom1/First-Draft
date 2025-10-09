@@ -462,11 +462,13 @@
 .aboutApartments {
     display: flex;
     gap: 6rem;
-    padding: 2rem;
-    align-items: center;
-    max-width: 1200px;
+    padding: 2rem 15rem;
     margin: 0 auto;
+    gap: 2rem;
+    text-align: center;
+
 }
+
 
 .aboutApartments img {
     max-width: 50%;
@@ -474,7 +476,8 @@
 }
 
 .divApartment {
-    flex: 1;
+padding: 2rem;
+text-align: left;
 }
 
 .divApartment h3 {
@@ -490,9 +493,8 @@
 
 
 .divApartment p {
-    width: 40rem;
     line-height: 2.7rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #333;
 }
 
@@ -503,6 +505,40 @@
 .titleH {
     font-size: 3rem;
 }
+
+
+.text2 {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+
+.searchBar {
+    max-width: 90%;
+    margin: 1.5rem auto;
+    margin-top: 4rem;
+}
+
+.category,
+.location,
+.search {
+    font-size: 1rem;
+    padding: 0.6rem;
+}
+
+.backgroundHeader img {
+    height: 55%;
+}
+
+
+.aboutApartments img {
+    width: 100%;
+}
+
+
+.divApartment h3 {
+    font-size: 3rem;
+}
+
 
 /* Enhanced Media Queries */
 @media (max-width: 1440px) {
@@ -536,9 +572,7 @@
         max-width: 45%;
     }
 
-    .divApartment p {
-        width: 35rem;
-    }
+
 
     .backgroundHeader img {
         height: 63%;
@@ -588,9 +622,6 @@
         max-width: 40%;
     }
 
-    .divApartment p {
-        width: 30rem;
-    }
 
 }
 
@@ -619,46 +650,6 @@
     }
 }
 
-.text2 {
-    font-size: 0.9rem;
-    margin-top: 1.5rem;
-}
-
-.searchBar {
-    max-width: 90%;
-    margin: 1.5rem auto;
-    margin-top: 4rem;
-}
-
-.category,
-.location,
-.search {
-    font-size: 1rem;
-    padding: 0.6rem;
-}
-
-.backgroundHeader img {
-    height: 55%;
-}
-
-.aboutApartments {
-    flex-direction: column;
-    gap: 2rem;
-    text-align: center;
-}
-
-.aboutApartments img {
-    max-width: 100%;
-}
-
-.divApartment p {
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-.divApartment h3 {
-    font-size: 3rem;
-}
 
 
 @media (max-width: 879px) {
@@ -674,6 +665,18 @@
         width: 97%;
         height: 65%;
     }
+
+    .aboutApartments {
+        flex-direction: column;
+        padding-inline: 5rem;
+        align-items: center;
+    }
+
+    .divApartment {
+        text-align: center;
+    }
+
+   
 }
 
 @media (max-width: 768px) {
@@ -875,6 +878,7 @@
 
     .aboutApartments {
         gap: 1rem;
+        padding-inline: 2rem;
     }
 
     .divApartment h3 {
