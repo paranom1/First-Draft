@@ -551,6 +551,12 @@
 
 }
 
+@media (max-width: 1329px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 1200px) {
     .text {
         max-width: 500px;
@@ -654,6 +660,21 @@
     font-size: 3rem;
 }
 
+
+@media (max-width: 879px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid p {
+        width: 24rem;
+    }
+
+    .grid img {
+        width: 97%;
+        height: 65%;
+    }
+}
 
 @media (max-width: 768px) {
     .navbar {
@@ -777,7 +798,7 @@
     }
 
     .grid p {
-        width: 22rem;
+        width: 24rem;
     }
 
     .divSale {
@@ -879,6 +900,10 @@
         gap: 90px;
     }
 
+    .grid p {
+        width: 25rem;
+    }
+
     .searchBar {
         width: 18rem;
     }
@@ -903,6 +928,15 @@
         margin-right: 2rem;
     }
 
+
+
+}
+
+@media (max-width: 400px) {
+
+    .grid p {
+        width: 21rem;
+    }
 }
 
 @media (max-width: 380px) {
@@ -957,6 +991,14 @@
     .popup input {
         font-size: 0.8rem;
 
+    }
+
+    .grid p {
+        width: 15rem;
+    }
+
+    .grid h1 {
+        font-size: 1.4rem;
     }
 
 }
