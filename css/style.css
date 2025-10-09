@@ -326,7 +326,7 @@ width: 108%;
 
     /* main */
     aside {
-        width: 100vw;
+        width: 600px;
         margin-left: 0;
     }
 
@@ -412,7 +412,7 @@ width: 108%;
 
     /* footer */
 
-    /* main */
+     /* main */
     .inputGIT {
         width: 500px;
     }
@@ -437,6 +437,9 @@ width: 108%;
         margin-left: 30%;
     }
 
+    form {
+        width: 100vw;
+    }
 
     h3 {
         font-size:0.55em;
@@ -458,4 +461,42 @@ width: 108%;
         font-size:2rem;
     }
     /* main */
+
+    @media (max-width:689px) {
+        .inputGIT {
+        width:410px;
+    }
+    textarea {
+        width: 421px;
+        max-width: 421px;
+        min-width: 421px;
+    }
+    .articleIMG {
+        width:430px;
+        height:384px;
+    }
+    .cusBox {
+        padding:0.8rem;
+    }
+    .customertext {
+        width:14rem;
+        font-size:0.8rem;
+    }
+    .textcontainer {
+        width:14rem;
+    }
+    .swapbutton {
+        width:2rem;
+        height:2rem;
+        font-size:1.5rem;
+    }
+    .cusLineImg {
+        height:8rem;
+        width:1.5rem;
+        left:1rem;
+    }
+    .cusBox {
+        max-width:430px;
+    }
+    }
 }
