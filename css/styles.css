@@ -152,7 +152,7 @@
         margin: 2rem auto;
         position: relative;
         z-index: 5;
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
 
     .category,
@@ -486,10 +486,10 @@
 }
 
 .divApartment .apartmentStick {
-    position: absolute;
-    left: -2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 5rem;
+    background-color: navy;
+    width: 1rem;
+}
 }
 
 .divApartment p {
@@ -500,7 +500,7 @@
 }
 
 .divApartment h3 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .titleH {
@@ -515,6 +515,10 @@
 
     .backgroundHeader img {
         height: 63%;
+    }
+
+    .grid p {
+        width: 25rem;
     }
 }
 
@@ -542,6 +546,12 @@
     .backgroundHeader img {
         height: 63%;
     }
+
+    .searchBar {
+        max-width: 1100px;
+        margin-top: 4rem;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -555,11 +565,12 @@
     }
 
     .text2 {
-        width: 18rem;
+        width: 15rem;
     }
 
     .searchBar {
         max-width: 1100px;
+        margin-top: 4rem;
     }
 
     .grid {
@@ -598,52 +609,53 @@
     }
 
     .text1 h1 {
-        margin-top: 3rem;
-        font-size: 1.4rem;
+        margin-top: 1rem;
+        font-size: 2.4rem;
         width: 1rem;
-        line-height: 1.4rem;
+        line-height: 2.4rem;
     }
+}
 
-    .text2 {
-        font-size: 0.9rem;
-        margin-top: 1.5rem;
-    }
+.text2 {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
 
-    .searchBar {
-        max-width: 90%;
-        margin: 1.5rem auto;
-        margin-top: 4rem;
-    }
+.searchBar {
+    max-width: 90%;
+    margin: 1.5rem auto;
+    margin-top: 4rem;
+}
 
-    .category,
-    .location,
-    .search {
-        font-size: 1rem;
-        padding: 0.6rem;
-    }
+.category,
+.location,
+.search {
+    font-size: 1rem;
+    padding: 0.6rem;
+}
 
-    .backgroundHeader img {
-        height: 55%;
-    }
+.backgroundHeader img {
+    height: 55%;
+}
 
-    .aboutApartments {
-        flex-direction: column;
-        gap: 2rem;
-        text-align: center;
-    }
+.aboutApartments {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
 
-    .aboutApartments img {
-        max-width: 100%;
-    }
+.aboutApartments img {
+    max-width: 100%;
+}
 
-    .divApartment p {
-        width: 100%;
-        font-size: 1.5rem;
-    }
+.divApartment p {
+    width: 100%;
+    font-size: 1.5rem;
+}
 
-    .divApartment h3 {
-        font-size: 3rem;
-    }
+.divApartment h3 {
+    font-size: 3rem;
+}
 }
 
 @media (max-width: 768px) {
@@ -760,9 +772,15 @@
     }
 
     .grid {
-        grid-template-columns: 1fr;
-        grid-auto-rows: 400px;
+        grid-template-columns: 0.8fr;
+        grid-auto-rows: 394px;
         gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grid p {
+        width: 22rem;
     }
 
     .divSale {
@@ -815,12 +833,17 @@
         background-color: white;
         width: 8rem;
         height: 3rem;
+        margin: 0;
     }
 
     .AboutApartmentReadMore {
         width: 8rem;
         height: 3rem;
         font-size: 1rem;
+    }
+
+    .text2 {
+        text-align: center;
     }
 
 
@@ -877,9 +900,10 @@
     .backgroundHeader img {
         width: 100%;
     }
+
     .popup-content {
         height: 35%;
-        margin-right:2rem;
+        margin-right: 2rem;
     }
 
 }
