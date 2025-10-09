@@ -490,7 +490,7 @@
     background-color: navy;
     width: 1rem;
 }
-}
+
 
 .divApartment p {
     width: 40rem;
@@ -656,7 +656,7 @@
 .divApartment h3 {
     font-size: 3rem;
 }
-}
+
 
 @media (max-width: 768px) {
     .navbar {
