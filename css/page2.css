@@ -231,11 +231,12 @@ h3 {
     gap: 20px;
 }
 
-.houseText {
-    flex: 1;
-    min-width: 0;
-    text-align: left;
-    max-width: 50%;
+.houseTitle {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    place-self: center;
 }
 
 .houseText h1 {
