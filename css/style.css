@@ -50,9 +50,9 @@ form {
 }
 
 textarea {
-    width: 561px;
-    max-width: 561px;
-    min-width: 561px;
+    width: 550px;
+    max-width: 550px;
+    min-width: 550px;
     height: 102px;
     max-height: 102px;
     min-height: 102px;
@@ -71,7 +71,8 @@ textarea {
 }
 
 .submit:hover {
-    background-color: #ed5407
+    background-color: #ed5407;
+    cursor:pointer;
 }
 
 .submit:active {
@@ -503,9 +504,9 @@ p {
         }
 
         textarea {
-            width: 421px;
-            max-width: 421px;
-            min-width: 421px;
+            width: 410px;
+            max-width: 410px;
+            min-width: 410px;
         }
 
         .articleIMG {
