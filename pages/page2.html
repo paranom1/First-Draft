@@ -2,114 +2,132 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Our Pricing Page</title>
     <script src="https://kit.fontawesome.com/a1ff1632b7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/page2.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-     <nav class="navbar">
-            <div class="TeaserLogo"><img src="../imagesForHeader/Teaser.png"></div>
-            <div class="navigation">
-                <a href="#" class="login" id="loginLink">Login</a>
-                <a href="#" class="signUp" id="signUpLink">Sign up</a>
-                <a href="#" class="menu" id="menuLink"><img src="../imagesForHeader/MenuIcon.png" alt="Menu"></a>
+    <nav class="navbar">
+        <div class="TeaserLogo"><img src="../imagesForHeader/Teaser.png" alt="Teaser Logo"></div>
+        <div class="navigation">
+            <a href="#" class="login" id="loginLink">Login</a>
+            <a href="#" class="signUp" id="signUpLink">Sign up</a>
+            <a href="#" class="menu" id="menuLink"><img src="../imagesForHeader/MenuIcon.png" alt="Menu"></a>
+        </div>
+    </nav>
+    <div class="side-menu" id="sideMenu">
+        <a href="#" class="close-btn" id="closeBtn">&times;</a>
+        <ul>
+            <li><a href="../pages/index.html">Home</a></li>
+            <li><a href="../pages/page2.html">About</a></li>
+            <li><a href="../pages/page3.html">Quotes</a></li>
+            <li><a href="../pages/pricing.html">Pricing</a></li>
+        </ul>
+    </div>
+ 
+    <!-- Login Pop-Up -->
+    <div class="popup" id="loginPopup">
+        <div class="popup-content">
+            <a href="#" class="close-popup" id="closeLogin">&times;</a>
+            <h2>Login</h2>
+            <div class="form-container">
+                <input type="text" placeholder="Username or Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
             </div>
-        </nav>
-        <div class="side-menu" id="sideMenu">
-            <a href="#" class="close-btn" id="closeBtn">&times;</a>
-            <ul>
-                <li><a href="../pages/index.html">Home</a></li>
-                <li><a href="../pages/page2.html">About</a></li>
-                <li><a href="../pages/page3.html">Reviews</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
-
-        <!-- Login Pop-Up -->
-        <div class="popup" id="loginPopup">
-            <div class="popup-content">
-                <a href="#" class="close-popup" id="closeLogin">&times;</a>
-                <h2>Login</h2>
-                <form>
-                    <input type="text" placeholder="Username or Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <button type="submit">Login</button>
-                </form>
-            </div>
-        </div>
-        <!-- Sign-Up Pop-Up -->
-        <div class="popup" id="signUpPopup">
-            <div class="popup-content">
-                <a href="#" class="close-popup" id="closeSignUp">&times;</a>
-                <h2>Sign Up</h2>
-                <form>
-                    <input type="text" placeholder="Username" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <input type="password" placeholder="Confirm Password" required>
-                    <button type="submit">Sign Up</button>
-                </form>
-            </div>
-        </div>
-        <!-- Overlay -->
-        <div class="overlay" id="overlay"></div>
-        <script src="../javascript/script.js"></script>
-    <main>
-            <div class="houseTitle">
-        <div class="houseText">
-            <h1><span class="houseLine"></span> Very Good Deal For House</h1>
-            <p style="font-size: 1.8rem; width: 50rem;">There are many
-                variations of
-                passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some form, by injected humour, or
-                randomised
-                words which don't look even slightly believable.
-            </p>
-             <button class="button" href="../pages/page3.html">Get A Quote</button>
-        </div>
-        <div class="veryGoodImages">
-            <img src="../VeryGoodDealForHouseImages/verygoodHouse1.png" alt="verygoodHouse1" class="veryGoodHouse1">
-            <img src="../VeryGoodDealForHouseImages/verygoodHouse2.png" alt="verygoodHouse2" class="veryGoodHouse2">
         </div>
     </div>
+    <!-- Sign-Up Pop-Up -->
+    <div class="popup" id="signUpPopup">
+        <div class="popup-content">
+            <a href="#" class="close-popup" id="closeSignUp">&times;</a>
+            <h2>Sign Up</h2>
+            <div class="form-container">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+    <script src="../javascript/script.js"></script>
+ 
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <h1>Our Pricing</h1>
+        <p class="pricing-subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <div class="pricing-cards">
+            <div class="pricing-card basic">
+                <h2>01<br>BASIC</h2>
+                <p class="price">$100.00</p>
+                <p class="description">variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form.</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="pricing-card standard">
+                <h2>02<br>STANDARD</h2>
+                <p class="price">$200.00</p>
+                <p class="description">variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form.</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="pricing-card premium">
+                <h2>03<br>PREMIUM</h2>
+                <p class="price">$300.00</p>
+                <p class="description">variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form.</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </section>
+ 
+    <main>
+        <div class="houseTitle">
+            <div class="houseText">
+                <h1><span class="houseLine"></span> Very Good Deal For House</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <button class="button" href="../pages/page3.html">Get A Quote</button>
+            </div>
+            <div class="veryGoodImages">
+                <img src="../VeryGoodDealForHouseImages/verygoodHouse1.png" alt="verygoodHouse1" class="veryGoodHouse1">
+                <img src="../VeryGoodDealForHouseImages/verygoodHouse2.png" alt="verygoodHouse2" class="veryGoodHouse2">
+            </div>
+        </div>
         <section class="sectionWCU">
             <div class="titleflexWCU">        
                 <div class="lineWCU"></div>
                 <h1 class="h1WCU">Why Choose Us</h1>
             </div>
-
             <section class="sectionflex">
-            <div class="child">
-                <i class="fa-solid fa-location-dot iconsWCU"></i>
-                <br>
-                <h2>1000+</h2>
-                <h3>Years of house</h3>
-            </div>
-            <div class="child">
-                <i class="fa-solid fa-clipboard-list iconsWCU"></i>
-                <br>
-                <h2>20000+</h2>
-                <h3>Projects delivered</h3>
-            </div>
-            <div class="child">
-                <i class="fa-solid fa-user-tie iconsWCU"></i>
-                <br>
-                <h2>10000+</h2>
-                <h3>Satisfied customers</h3>
-            </div>
-            <div class="child">
-                <i class="fa-solid fa-money-bill-wave iconsWCU"></i>
-                <br>
-                <h2>1500+</h2>
-                <h3>Cheap rates</h3>
-            </div>
-            
+                <div class="child">
+                    <i class="fa-solid fa-location-dot iconsWCU"></i>
+                    <br>
+                    <h2>1000+</h2>
+                    <h3>Years of house</h3>
+                </div>
+                <div class="child">
+                    <i class="fa-solid fa-clipboard-list iconsWCU"></i>
+                    <br>
+                    <h2>20000+</h2>
+                    <h3>Projects delivered</h3>
+                </div>
+                <div class="child">
+                    <i class="fa-solid fa-user-tie iconsWCU"></i>
+                    <br>
+                    <h2>10000+</h2>
+                    <h3>Satisfied customers</h3>
+                </div>
+                <div class="child">
+                    <i class="fa-solid fa-money-bill-wave iconsWCU"></i>
+                    <br>
+                    <h2>1500+</h2>
+                    <h3>Cheap rates</h3>
+                </div>
+            </section>
+            <button class="buttonWCU">Get A Quote</button>  
         </section>
-            <button class="buttonWCU">Get A Quote</button>   
-        </section>
-        
     </main>
     <footer>
         <div class="Fparent">
@@ -121,14 +139,11 @@
             </div>
             <div class="Fchildren1 pushrightChild">
                 <h4 class="pushdown">Information</h4>
-                <div class="Ftoddler2 media1"><p>Lorem ipsum dolor sit amet</p> <p>consectetur adipiscing elit</p> <p></p>quisque faucibus ex sapien.</p></div>
-
-
+                <div class="Ftoddler2 media1"><p>Lorem ipsum dolor sit amet</p> <p>consectetur adipiscing elit</p> <p>quisque faucibus ex sapien.</p></div>
             </div>
             <div class="Fchildren2">
                 <h4 class="pushdown">Useful Link</h4>
-                <div class="media1"><p class="pfooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p></div>
-
+                <div class="media1"><p class="pfooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
             </div>
             <div class="Fchildren3">
                 <h4 class="pushdown">Newsletter</h4>
@@ -136,10 +151,10 @@
                 <button class="FooterButton">SUBSCRIBE</button>
                 <div class="iconholder media1">
                     <i class="fa-brands fa-facebook-f icons"></i>
-                     <i class="fa-brands fa-twitter icons iconmarge"></i> 
-                     <i class="fa-brands fa-instagram icons iconmarge"></i> 
-                     <i class="fa-brands fa-youtube icons iconmarge"></i>
-                    </div>
+                    <i class="fa-brands fa-twitter icons iconmarge"></i>
+                    <i class="fa-brands fa-instagram icons iconmarge"></i>
+                    <i class="fa-brands fa-youtube icons iconmarge"></i>
+                </div>
             </div>
         </div>
         <hr class="line">
